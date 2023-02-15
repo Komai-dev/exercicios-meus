@@ -13,8 +13,8 @@ body {
 
 header {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    background-color: rgb(206, 206, 206);
-    padding: 8px 0px 15px 0px;
+    background-color: rgb(255, 255, 255);
+    padding: 8px 0px 14px 0px;
 }
     header h2::before {
         content: url(imagens/gps_26x26.png);
@@ -33,3 +33,33 @@ header {
         top: 1.9%;
         right: 1.1%;
     }
+section {
+    height: 637px;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.363);
+    background-image: url(imagens/london.jpg);
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: local;
+}
+    section > div#sectionbox {
+        height: 255px;
+        width: 890px;
+        position: relative;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        background-color: white;
+    }
+    section > div#sectionbox > div#headercontent {
+        background-color: black;
+        color: white;
+        height: 36px;
+    }
+        div#headercontent h3{
+            display: inline-block;
+            lett
+            padding-right: 30px;
+        }
+    
