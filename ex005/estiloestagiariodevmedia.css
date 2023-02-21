@@ -34,6 +34,7 @@ header {
     header h2 {
         color: red;
         font-size: 1.56em;
+        font-family: var(--fonteprincipal);
         font-weight: normal;
         text-indent: 10px;
 
@@ -109,7 +110,7 @@ section {
         height: 4.7vh;
         width: 31vw;
         position: absolute;
-        top: 18vh;
+        top: 22vh;
         left: 1.4vw;
         border: 1px solid rgba(0, 0, 0, 0.295);
     }
@@ -117,7 +118,7 @@ section {
         height: 4.7vh;
         width: 31vw;
         position: absolute;
-        top: 18vh;
+        top: 22vh;
         left: 34vw;
         border: 1px solid rgba(0, 0, 0, 0.295);
     }
@@ -129,16 +130,25 @@ section {
         transform: translate(0%, -55%);
     }
     section > div#sectionbox > div.botaocinza {
-        height: 4.6vh;
-        width: 13.56vw;
+        height: 6vh;
+        width: 13.25vw;
         padding: 1px;
         background-color: rgb(92, 92, 92);
         position: absolute;
         left: 2%;
         bottom: 10%;
     }
+    section > div#sectionbox > div.botaocinza:hover {
+        height: 6.5vh;   
+        width: 13.50vw;
+        transition-duration: .6s;
+        background-color: rgb(39, 39, 39);
+        font-size: 1em;
+        font-weight: 600;
+        font-style: italic;
+    }
     section > div#sectionbox > div.botaocinza p {
-        margin-left: -6.5%;
+        margin-left: -4.5%;
         color: white;
         text-align: center;
         font-family: Arial, Helvetica, sans-serif;
