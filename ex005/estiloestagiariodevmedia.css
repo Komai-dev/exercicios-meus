@@ -1,4 +1,9 @@
 @charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;1,600&display=swap');
+
+:root {
+    --fonteprincipal: 'Raleway'
+}
 
 * {
     margin: 0px;
@@ -12,8 +17,8 @@ ul {
 
 
 body {
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    font-weight: normal;
+    font-family: var(--fonteprincipal);
+    
 
 }
 
@@ -40,14 +45,14 @@ header {
         right: 1.1%;
     }
 section {
-    height: 637px;
+    height: 83vh;
     width: 100%;
     background-color: rgba(0, 0, 0, 0.363);
     background-image: url(imagens/london.jpg);
     background-position: center top;
     background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment: local;
+    background-size: 99.99vw 100vh;
+    background-attachment: fixed;
 }
     section > div#sectionbox {
         height: 255px;
@@ -75,29 +80,72 @@ section {
                 background-color: rgb(255, 67, 39);
                 padding-left: 8px;
             }
-                section > div#sectionbox > div#headercontent > span.spanfhr li {
-                    width: max-content;  
-                    font-size: 1.04em;
-                    font-weight: lighter;
-                    letter-spacing: 0.8px;
+                section > div#sectionbox > div#headercontent > ul span.spanfhr {
+                    height: 20px;
+                    max-width: 21.5vw;  
+                    font-size: .97em;
+                    font-weight: 400;
+                    letter-spacing: .3px;
                 }
+                
+                
     section div h2{
         margin: 20px;
-        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-family: var(--fonteprincipal);
         font-size: 1.7em;
         font-weight: 300;
-        text-shadow: -1.2px 0.6px 2px rgba(0, 38, 255, 0.705);
+        text-shadow: -1px 0.3px 2px rgba(0, 38, 255, 0.605);
     }
     section div#sectionbox h4 {
-        margin: 0px 0px 7px 0px;
-        color: rgba(0, 0, 0, 0.747);
-        text-indent: 20px;
-        font-weight: lighter;
+        display: inline-block;
+        margin: 0px 44.5% 7px 0px;
+        color: rgb(0, 0, 0);
+        text-indent: 0px;
+        font-weight: 400;
+        position: relative;
+        left: 2.5%;
     }
     section div#sectionbox div.from {
-        margin-left: 20px;
-        margin-right: 0px;
         height: 4.7vh;
         width: 31vw;
+        position: absolute;
+        top: 18vh;
+        left: 1.4vw;
         border: 1px solid rgba(0, 0, 0, 0.295);
+    }
+    section > div#sectionbox > div.to {
+        height: 4.7vh;
+        width: 31vw;
+        position: absolute;
+        top: 18vh;
+        left: 34vw;
+        border: 1px solid rgba(0, 0, 0, 0.295);
+    }
+    section > div#sectionbox > div > p {
+        color: rgba(0, 0, 0, 0.541);
+        position: relative;
+        top: 50%;
+        left: 2%;
+        transform: translate(0%, -55%);
+    }
+    section > div#sectionbox > div.botaocinza {
+        height: 4.6vh;
+        width: 13.56vw;
+        padding: 1px;
+        background-color: rgb(92, 92, 92);
+        position: absolute;
+        left: 2%;
+        bottom: 10%;
+    }
+    section > div#sectionbox > div.botaocinza p {
+        margin-left: -6.5%;
+        color: white;
+        text-align: center;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: .95em;
+    }
+
+    main h2{
+        font-weight: 400;
+        margin: 2.25% 11%;
     }
