@@ -35,7 +35,7 @@ header {
         color: red;
         font-size: 1.56em;
         font-family: var(--fonteprincipal);
-        font-weight: normal;
+        font-weight: 500;
         text-indent: 10px;
 
     }
@@ -69,6 +69,7 @@ section {
             margin: 0px;
             background-color: black;
             color: white;
+            
         }
             section > div#sectionbox > div#headercontent > ul span.spanfhr {
                 display: inline-block;
@@ -80,6 +81,7 @@ section {
             section > div#sectionbox > div#headercontent > ul span.spanfhr:hover {
                 background-color: rgb(255, 67, 39);
                 padding-left: 8px;
+                transition-duration: .6s;
             }
                 section > div#sectionbox > div#headercontent > ul span.spanfhr {
                     height: 20px;
@@ -95,7 +97,7 @@ section {
         font-family: var(--fonteprincipal);
         font-size: 1.7em;
         font-weight: 300;
-        text-shadow: -1px 0.3px 2px rgba(0, 38, 255, 0.605);
+        text-shadow: -1.2px 0.3px 2px rgba(0, 38, 255, 0.605);
     }
     section div#sectionbox h4 {
         display: inline-block;
@@ -145,7 +147,6 @@ section {
         background-color: rgb(39, 39, 39);
         font-size: 1em;
         font-weight: 600;
-        font-style: italic;
     }
     section > div#sectionbox > div.botaocinza p {
         margin-left: -4.5%;
@@ -155,7 +156,82 @@ section {
         font-size: .95em;
     }
 
-    main h2{
-        font-weight: 400;
+    main h2, h4 {
         margin: 2.25% 11%;
+        text-shadow: -1.2px 0.3px 2.4px rgba(0, 38, 255, 0.605);
+        font-weight: 400;
     }
+    main > picture img {
+        margin: -20px 0px  0px 11%;
+    }
+        main > picture img#cinqueterre {
+            height: 61vh;
+            width: 39%;
+        }
+    main > picture > div#imagescontainer {
+        height: 61vh;
+        width: 39vw;
+        position: absolute;
+        top: 110.4%;
+        right: 9%;
+        
+    }
+        main > picture > div#imagescontainer img {
+            height: 29vh;
+            width: 17.8vw;
+            margin: 6px 6px 6px 6px;
+            position: relative;
+            top: 25%;
+            left: 9%;
+            transform: translate(-22.5%, -55%);
+        }
+        main > picture > p#legendacinqueterre {
+            color: white;
+            background-image: linear-gradient(to right, rgba(0, 0, 0, 0.781), transparent 95%);
+            padding: 1px 50px 1px 20px;
+            font-weight: normal;
+            font-size: 1.2em;
+            position: absolute;
+            top: 166.5vh;
+            left: 10.8vw;
+        }
+        main > picture > div#imagescontainer > p.legendany {
+            color: white;
+            background-image: linear-gradient(to right, rgba(0, 0, 0, 0.781), transparent 95%);
+            padding: 1px 35px 1px 20px;
+            font-weight: normal;
+            font-size: 1.2em;
+            position: absolute;
+            top: 40%;
+            left: -0.1%;
+        }
+        main > picture > div#imagescontainer > p.legendasf {
+            color: white;
+            background-image: linear-gradient(to right, rgba(0, 0, 0, 0.781), transparent 95%);
+            padding: 1px 50px 1px 20px;
+            font-weight: normal;
+            font-size: 1.2em;
+            position: absolute;
+            top: 40%;
+            left: 48.5%;
+        }
+        main > picture > div#imagescontainer > p.legendapisa {
+            color: white;
+            background-image: linear-gradient(to right, rgba(0, 0, 0, 0.781), transparent);
+            padding: 1px 25px 1px 20px;
+            font-weight: normal;
+            font-size: 1.2em;
+            position: absolute;
+            top: 91.5%;
+            left: -0.1%;
+        }
+        main > picture > div#imagescontainer > p.legendaparis {
+            color: white;
+            background-image: linear-gradient(to right, rgba(0, 0, 0, 0.945), transparent 85%);
+            padding: 1px 25px 1px 20px;
+            font-weight: normal;
+            font-size: 1.2em;
+            position: absolute;
+            top: 91.5%;
+            left: 48.5%;
+        }
