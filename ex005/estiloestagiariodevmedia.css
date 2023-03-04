@@ -156,6 +156,10 @@ section {
     }
 
 
+    main {
+        height: 166.7vh;
+        width: 100%;
+    }
     main h2, h4 {
         margin: 2.25% 11%;
         text-shadow: -0.5px 0.9px 1px rgba(255, 102, 0, 0.315);
@@ -168,19 +172,19 @@ section {
     }
         main > picture img#cinqueterre {
             height: 61vh;
-            width: 39%;
+            width: 38.3%;
         }
     main > picture > div#imagescontainer {
         height: 61vh;
         width: 39vw;
         position: absolute;
         top: 110.4%;
-        right: 9%;
+        right: 9.92%;
         
     }
         main > picture > div#imagescontainer img {
             height: 29vh;
-            width: 17.8vw;
+            width: 18.35vw;
             margin: 6px 6px 6px 6px;
             position: relative;
             top: 25%;
@@ -205,7 +209,7 @@ section {
             font-size: 1.2em;
             position: absolute;
             top: 40%;
-            left: -0.1%;
+            left: -0.6%;
         }
         main > picture > div#imagescontainer > p.legendasf {
             color: white;
@@ -215,7 +219,7 @@ section {
             font-size: 1.2em;
             position: absolute;
             top: 40%;
-            left: 48.5%;
+            left: 49.5%;
         }
         main > picture > div#imagescontainer > p.legendapisa {
             color: white;
@@ -225,7 +229,7 @@ section {
             font-size: 1.2em;
             position: absolute;
             top: 91.5%;
-            left: -0.1%;
+            left: -0.6%;
         }
         main > picture > div#imagescontainer > p.legendaparis {
             color: white;
@@ -235,7 +239,7 @@ section {
             font-size: 1.2em;
             position: absolute;
             top: 91.5%;
-            left: 48.5%;
+            left: 49.5%;
         }
         
         main > p#pdaspaisagens {
@@ -256,7 +260,7 @@ section {
                 main > div > div > img.paisagens {
                     display: inline-block;
                     height: 41vh;
-                    width: 38.5vw;
+                    width: 37.8vw;
                     margin: 0px 0px 0px 0px;
                     background-color: transparent;
                     background-position: center bottom;
@@ -294,6 +298,23 @@ section {
                             text-indent: 35px;             
                         }
             
+        footer {
+            height: 600px;
+            width: 100%;
+            margin: 0px;
+            position: absolute;
+            top: 270%;
+        }
+        footer > div#footerdiv {
+            height: 254px;
+            width: 77.9%;
+            margin: -0.5% auto 0px auto;
+            padding: 0px 0px 0px 1px;
+            background-color: gray;
+        }
+        footer > div#footerdiv > h2#offersh2 {
+            margin: 15px 2px;
+        }
 
 
 
