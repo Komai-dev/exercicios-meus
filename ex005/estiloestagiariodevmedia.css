@@ -18,8 +18,7 @@ ul {
 
 body {
     font-family: var(--fonteprincipal);
-    
-
+    background-color: rgba(0, 0, 255, 0.685);
 }
 
 header {
@@ -97,7 +96,7 @@ section {
         font-family: var(--fonteprincipal);
         font-size: 1.7em;
         font-weight: 300;
-        text-shadow: -1.2px 0.3px 2px rgba(0, 38, 255, 0.605);
+        text-shadow: -0.5px 0.9px 1px rgba(255, 102, 0, 0.315);
     }
     section div#sectionbox h4 {
         display: inline-block;
@@ -156,11 +155,14 @@ section {
         font-size: .95em;
     }
 
+
     main h2, h4 {
         margin: 2.25% 11%;
-        text-shadow: -1.2px 0.3px 2.4px rgba(0, 38, 255, 0.605);
+        text-shadow: -0.5px 0.9px 1px rgba(255, 102, 0, 0.315);
         font-weight: 400;
     }
+    
+
     main > picture img {
         margin: -20px 0px  0px 11%;
     }
@@ -234,4 +236,69 @@ section {
             position: absolute;
             top: 91.5%;
             left: 48.5%;
+        }
+        
+        main > p#pdaspaisagens {
+            position: absolute;
+            left: 11%;
+            font-size: 0.97em;
+            font-weight: 400;
+            text-shadow: -0.5px 0.9px 1px rgba(255, 102, 0, 0.315);
+        }
+        main > div {
+            position: absolute;
+            left: 11%;
+            transform: translate(0%, 13.6%);
+        }
+            main > div > div {
+                height: 70vh;
+            }
+                main > div > div > img.paisagens {
+                    display: inline-block;
+                    height: 41vh;
+                    width: 38.5vw;
+                    margin: 0px 0px 0px 0px;
+                    background-color: transparent;
+                    background-position: center bottom;
+                    background-repeat: no-repeat;
+                    background-size: cover;
+                    background-attachment: fixed;
+                }
+            main > div > div#divdooceano {
+                position: relative;
+                left: 0%;
+                background-color: white;
+                transform: translateY(-18%);
+            }
+            main > div > div#divdamontanha {
+                position: relative;
+                left: 103%;
+                transform: translateY(-118%);
+                background-color: white;
+            }
+            main > div > div > h2.h2paisagens {
+                text-indent: -39px;
+            }
+                main > div > div > p {
+                    text-indent: 15px;
+                    font-size: 0.9em;
+                }
+                    main > div > div > p.legendadaspaisagens {
+                        color: gray;
+                    }
+                        main > div > div > p.textodaspaisagens {
+                            margin-top: 18px;
+                        }
+                        main > div > div > p.buytickets {
+                            margin-top: 24px;
+                            text-indent: 35px;             
+                        }
+            
+
+
+
+
+        #lorem {
+            position: relative;
+            top: 1800px;
         }
