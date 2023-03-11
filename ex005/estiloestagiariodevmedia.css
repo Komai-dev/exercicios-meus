@@ -302,22 +302,55 @@ section {
             height: 600px;
             width: 100%;
             margin: 0px;
+            color: white;
             position: absolute;
             top: 270%;
+            text-indent: 14px;
         }
         footer > div#footerdiv {
             height: 254px;
             width: 77.9%;
             margin: -0.5% auto 0px auto;
-            padding: 0px 0px 0px 1px;
-            background-color: gray;
+            padding: 0px 0px 5px 2px;
+            background-color: rgb(78, 77, 80);
         }
         footer > div#footerdiv > h2#offersh2 {
-            margin: 15px 2px;
+            margin: 0;
+            padding-top: 30px;
+            font-size: 1.75em;
+            letter-spacing: 0.3px;
         }
-
-
-
+        footer > div#footerdiv > p#newsletter {
+            margin-top: 20px;
+            font-size: 0.9em;
+        }
+        footer > div#footerdiv > form#form-email {
+            margin-top: 23px;
+        }
+        footer > div#footerdiv > form#form-email > input {
+            height: 40px;
+            width: 96.8%;
+            margin-top: 3px;
+            margin-left: 13px;
+        }
+        footer > div#footerdiv > form#form-email > input::placeholder {
+            color: rgb(177, 177, 177);
+            font-size: 1.15em;
+            text-indent: 7px;
+        }
+        footer > div#footerdiv > form#form-email > button {
+            height: 40px;
+            width: 105px;
+            margin-top: 13px;
+            margin-left: 13px;
+            background-color: rgb(255, 125, 125);
+            color: white;
+            border: 0px solid transparent;
+            font-size: 1em;
+        }
+        footer > div#footerdiv > form#form-email > input {
+            
+        }
 
         #lorem {
             position: relative;
