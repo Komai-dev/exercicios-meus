@@ -1,0 +1,1 @@
+alert('Só um site estático, não é possível fazer interações reais.');

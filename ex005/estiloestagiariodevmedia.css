@@ -434,7 +434,7 @@ section {
                 border: none;
             }
         footer > div#lastdiv {
-            color: gray;
+            color: #808080;
             font-size: 0.9em;
             text-align: center;
             margin: 20px;
@@ -444,7 +444,15 @@ section {
             font-weight: normal;
         }
         footer > div#lastdiv > nav#navlastdiv {
+            height: 30px;
             margin-top: 20px;
             margin-bottom: 20px;
+        }
+        footer > div#lastdiv > nav#navlastdiv > a {
+            margin: 0px 0.5px;
+            vertical-align: middle;
+        }
+        footer > div#lastdiv > p#lastcontent {
+            padding: 0px 0px 25px 0px;
         }
         
