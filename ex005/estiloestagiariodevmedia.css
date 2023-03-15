@@ -423,11 +423,11 @@ section {
             margin: 20px;
         }
         footer > div#lastdiv > h3 {
-            margin-bottom: 20px;
             font-size: 1.3em;
             font-weight: normal;
         }
-        footer > div#lastdiv {
-            
+        footer > div#lastdiv > nav#navlastdiv {
+            margin-top: 20px;
+            margin-bottom: 20px;
         }
         
