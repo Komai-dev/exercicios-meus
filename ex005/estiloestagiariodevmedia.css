@@ -18,7 +18,7 @@ ul {
 
 body {
     font-family: var(--fonteprincipal);
-    background-color: rgba(0, 0, 255, 0.685);
+    background-color: rgb(242, 242, 242);
 }
 
 header {
@@ -140,12 +140,13 @@ section {
         bottom: 10%;
     }
     section > div#sectionbox > div.botaocinza:hover {
-        height: 6.5vh;   
-        width: 13.50vw;
+        height: 6.25vh;   
+        width: 13.3vw;
         transition-duration: .6s;
         background-color: rgb(39, 39, 39);
         font-size: 1em;
-        font-weight: 600;
+        font-weight: normal;
+        text-shadow: 0.2px 0.2px 1px white;
     }
     section > div#sectionbox > div.botaocinza p {
         margin-left: -4.5%;
@@ -209,7 +210,7 @@ section {
             font-size: 1.2em;
             position: absolute;
             top: 40%;
-            left: -0.6%;
+            left: -0.55%;
         }
         main > picture > div#imagescontainer > p.legendasf {
             color: white;
@@ -219,7 +220,7 @@ section {
             font-size: 1.2em;
             position: absolute;
             top: 40%;
-            left: 49.5%;
+            left: 49.56%;
         }
         main > picture > div#imagescontainer > p.legendapisa {
             color: white;
@@ -229,7 +230,7 @@ section {
             font-size: 1.2em;
             position: absolute;
             top: 91.5%;
-            left: -0.6%;
+            left: -0.55%;
         }
         main > picture > div#imagescontainer > p.legendaparis {
             color: white;
@@ -239,7 +240,7 @@ section {
             font-size: 1.2em;
             position: absolute;
             top: 91.5%;
-            left: 49.5%;
+            left: 49.57%;
         }
         
         main > p#pdaspaisagens {
@@ -298,20 +299,21 @@ section {
                             text-indent: 35px;             
                         }
             
-        footer {
-            height: 600px;
-            width: 100%;
-            margin: 0px;
-            color: white;
-            position: absolute;
-            top: 270%;
-            text-indent: 14px;
-        }
+    footer {
+        height: 600px;
+        width: 100%;
+        margin: 0px;
+        color: black;
+        position: absolute;
+        top: 270%;
+        text-indent: 14px;
+    }
         footer > div#footerdiv {
             height: 254px;
             width: 77.9%;
             margin: -0.5% auto 0px auto;
             padding: 0px 0px 5px 2px;
+            color: white;
             background-color: rgb(78, 77, 80);
         }
         footer > div#footerdiv > h2#offersh2 {
@@ -348,11 +350,84 @@ section {
             border: 0px solid transparent;
             font-size: 1em;
         }
-        footer > div#footerdiv > form#form-email > input {
+        footer > div#divff {
+            margin-top: 35px;
+            margin-left: 10%;
+            color: black;
+        }
+        footer > div#divff > h2#contacth2 {
+            margin-bottom: 22px;
+            font-size: 1.83em;
+            font-weight: normal;
+        }
+        footer > div#divff > ul {
+            margin-top: 18px;
+            margin-left: 0px;
+            color: black;
+        }
+            footer > div#divff > ul > li {
+                text-align: start;
+            }
+            footer > div#divff > ul > li::before {
+                content: '📍';
+                margin-right: 21px;
+            }
+            footer > div#divff > ul > li#gps::before {
+                margin-right: 27.2px;
+                margin-left: 2px;
+            }
+            footer > div#divff > ul > li#phone::before {
+                content: '📞';
+                margin-right: 22px;
+            }
+            footer > div#divff > ul > li#email::before {
+                content: '📧';
+                margin-left: -0.5px;
+            }
+        footer > div#divff > form#formff {
+            height: 280px;
+            width: 1050.86px;
+        }
+            footer > div#divff > form#formff > input {
+                height: 50px;
+                width: 1050.86px;
+                margin-top: 18px;
+                color: rgba(128, 128, 128, 0.753);
+            }
+            footer > div#divff > form#formff > input::placeholder {
+                font-size: 1.2em;
+                color: rgb(173, 173, 173);
+                text-indent: 8px;
+            }
+            footer > div#divff > form#formff > input#emailff {
+                margin-left: 14.5px;
+            }
+            footer > div#divff > form#formff > input#mensagemff {
+                margin-left: 14.5px;
+            }
+            footer > div#divff > form#formff > input#inputbutton {
+                width: 150px;
+                margin-left: 13px;
+                color: white;
+                background-color: black;
+            }
+            footer > div#divff > form#formff > input#inputbutton:hover {
+                background-color: rgb(0, 0, 65);
+                transition-duration: .5s;
+                border: none;
+            }
+        footer > div#lastdiv {
+            color: gray;
+            font-size: 0.9em;
+            text-align: center;
+            margin: 20px;
+        }
+        footer > div#lastdiv > h3 {
+            margin-bottom: 20px;
+            font-size: 1.3em;
+            font-weight: normal;
+        }
+        footer > div#lastdiv {
             
         }
-
-        #lorem {
-            position: relative;
-            top: 1800px;
-        }
+        
