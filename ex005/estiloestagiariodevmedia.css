@@ -85,9 +85,27 @@ section {
                 section > div#sectionbox > div#headercontent > ul span.spanfhr {
                     height: 20px;
                     max-width: 21.5vw;  
-                    font-size: .97em;
+                    font-size: .935em;
                     font-weight: 400;
                     letter-spacing: .3px;
+                }
+                section > div#sectionbox > div#headercontent > ul > span.spanfhr > li#flight::before {
+                    content: url(imagens/plane17x17.png);
+                    margin-left: -18px;
+                    margin-right: 18px;
+                    vertical-align: top;
+                }
+                section > div#sectionbox > div#headercontent > ul > span.spanfhr > li#hotel::before {
+                    content: url(imagens/bed17x17.png);
+                    margin-left: -18px;
+                    margin-right: 18px;
+                    vertical-align: top;
+                }
+                section > div#sectionbox > div#headercontent > ul > span.spanfhr > li#rental::before {
+                    content: url(imagens/car17x17.png);
+                    margin-left: -18px;
+                    margin-right: 18px;
+                    vertical-align: top;
                 }
                 
                 
@@ -369,20 +387,19 @@ section {
                 text-align: start;
             }
             footer > div#divff > ul > li::before {
-                content: '📍';
+                content: url(imagens/gps16².png);
                 margin-right: 21px;
             }
             footer > div#divff > ul > li#gps::before {
-                margin-right: 27.2px;
-                margin-left: 2px;
+                margin-right: 26px;
+                margin-left: 1px;
             }
             footer > div#divff > ul > li#phone::before {
-                content: '📞';
+                content: url(imagens/telefone16².png);
                 margin-right: 22px;
             }
             footer > div#divff > ul > li#email::before {
-                content: '📧';
-                margin-left: -0.5px;
+                content: url(imagens/email16².png);
             }
         footer > div#divff > form#formff {
             height: 280px;
